@@ -1,16 +1,13 @@
-# testapp
+apk link:https://we.tl/t-w6EN8Ryi6Z
+screenshots:https://github.com/anassofteng/testtask/tree/master/screenshots
+demo video link:https://github.com/anassofteng/testtask/blob/master/screenshots/demovideo.mp4
 
-A new Flutter project.
 
-## Getting Started
+folder structure
+Core folder have app wide constatnts and Base class for all ViewModels in the app.
+ Use [ChangeNotifier] so UI can listen via [ChangeNotifierProvider] or [ListenableBuilder].
+ and app colors and theme configurations
 
-This project is a starting point for a Flutter application.
+shared/wdgets contains the nav bar
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+features folder contains the navigation screen and othe linked screens with nav bar.
